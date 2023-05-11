@@ -19,7 +19,7 @@ export default function CentralBox({}: Props) {
     const [commentedText, setCommentedText] = useState<String>('')
 
     //Variavel que guarda a lista de palavras que serão barradas
-    const [wordList, setWordList] = useState<String[]>(['poha','caralho'])
+    const [wordList, setWordList] = useState<String[]>(['carro','avião'])
 
     //Variavel que mapeia a quantidade e posição de palavras barradas usadadas pelo usuario
     const [textMap, setTextMap] = useState<number[]>([])

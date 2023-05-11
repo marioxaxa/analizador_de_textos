@@ -17,9 +17,9 @@ export default function SubmitButton({}: Props) {
         let badWordCount =textMap.filter(word => word === 1).length
         let warning 
         if(badWordCount === 1) {
-            warning = `Seu comentário possui 1 palavra inapropriada`
+            warning = `Seu comentário possui 1 palavra barrada`
         } else {
-            warning = `Seu comentário possui ${badWordCount} palavras inapropriadas`
+            warning = `Seu comentário possui ${badWordCount} palavras barradas`
         }
           return (
             <div className="w-full h-full flex flex-col justify-between items-center">
